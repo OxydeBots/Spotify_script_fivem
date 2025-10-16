@@ -111,7 +111,8 @@ end
 
 
 
-RegisterCommand("spotify", function()
+RegisterCommand("play", function()
     RefreshPlayerMusic()
     OpenSpotifyMenu()
 end)
+
